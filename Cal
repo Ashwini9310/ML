@@ -1,0 +1,17 @@
+def cal():
+    val1 = int(input("Enter first number: "))
+    val2 = int(input("Enter second number: "))
+    print("1: Addition")
+    print("2: Subtraction")
+    print("3: Multiplication")
+    print("4: Division")
+    choice=int(input())
+    if choice==1: 
+        print(val1+val2)
+    elif choice==2: 
+        print(val1-val2)
+    elif choice==3:
+        print(val1*val2)
+    elif choice==4: 
+        print(val1/val2)    
+cal()
